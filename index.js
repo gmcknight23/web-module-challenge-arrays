@@ -179,6 +179,12 @@ Use the filterByWord function below to do the following:
   DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 
+
+// 2 parameters array, string
+// .includes is case sensitive (use capitla C for chocolate)
+//create a new array called filteredArray to push my values to
+// loop through the origial arrray and check each item
+// 
 function filterByWord(/*your code here*/){
   /*your code here*/
 }
