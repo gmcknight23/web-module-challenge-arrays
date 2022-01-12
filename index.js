@@ -185,9 +185,19 @@ Use the filterByWord function below to do the following:
 //create a new array called filteredArray to push my values to
 // loop through the origial arrray and check each item
 // 
-function filterByWord(/*your code here*/){
-  /*your code here*/
+function filterByWord(array, flavor){
+  let filteredArray = [];
+  for(let i = 0; i < array.length; i++){
+  if(array[i].includes(flavor)){
+    filteredArray.push(array[i]);
+  }
 }
+
+return filteredArray;
+
+}
+
+console.log('task 7', filterByWord(originalFlavors, 'chocolate'))
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
